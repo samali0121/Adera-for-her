@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Adera for Her</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Adera for Her premium beauty and self-care edits">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="header_inner d-flex flex-row align-items-center justify-content-start">
+			<div class="logo"><a href="/">
+				<img src="images/Logo PNG.svg" alt="">
+			</a></div>
+			<nav class="main_nav">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<!-- <li><a href="categories.html">clothes</a></li>
+					<li><a href="categories.html">accessories</a></li>
+					<li><a href="categories.html">lingerie</a></li>
+					<li><a href="contact.html">contact</a></li> -->
+					<li><a href="#products">Products</a></li>
+					<li><a href="#newsletter">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header_content ml-auto">
+				<div class="search header_search">
+					<form action="#">
+						<input type="search" class="search_input" required="required">
+						<button type="submit" id="search_button" class="search_button"><img src="images/magnifying-glass.svg" alt=""></button>
+					</form>
+				</div>
+				<div class="shopping">
+					<!-- Cart -->
+					<a href="#">
+						<div class="cart">
+							<img src="images/shopping-bag.svg" alt="">
+							<div class="cart_num_container">
+								<div class="cart_num_inner">
+									<div class="cart_num">1</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<!-- Star -->
+					<a href="#">
+						<div class="star">
+							<img src="images/star.svg" alt="">
+							<div class="star_num_container">
+								<div class="star_num_inner">
+									<div class="star_num">0</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<!-- Avatar -->
+					<a href="#">
+						<div class="avatar">
+							<img src="images/avatar.svg" alt="">
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="logo menu_mm"><a href="#">Adera</a></div>
+		<div class="search">
+			<form action="#">
+				<input type="search" class="search_input menu_mm" required="required">
+				<button type="submit" id="search_button_menu" class="search_button menu_mm"><img class="menu_mm" src="images/magnifying-glass.svg" alt=""></button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">home</a></li>
+				<li class="menu_mm"><a href="#products">products</a></li>
+				<li class="menu_mm"><a href="#newsletter">contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		
+		<!-- Home Slider -->
+
+		<div class="home_slider_container">
+			<div class="owl-carousel owl-theme home_slider">
+				
+				<!-- Home Slider Item -->
+				<!-- <div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/ )"></div>
+					<div class="home_slider_content">
+						<div class="home_slider_content_inner">
+							<div class="home_slider_subtitle">Adera for Her</div>
+							<div class="home_slider_title">Quiet Luxury</div>
+						</div>	
+					</div>
+				</div> -->
+
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/img-1.png)"></div>
+				</div>
+
+				<!-- Home Slider Item -->
+				<!-- <div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_content">
+						<div class="home_slider_content_inner">
+							<div class="home_slider_subtitle">Adera for Her</div>
+							<div class="home_slider_title">Quiet Luxury</div>
+						</div>	
+					</div>
+				</div> -->
+
+			</div>
+			
+			<!-- Home Slider Nav -->
+
+			<!-- <div class="home_slider_next d-flex flex-column align-items-center justify-content-center"><img src="images/arrow_r.png" alt=""></div> -->
+
+			<!-- Home Slider Dots -->
+
+			<div class="home_slider_dots_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_slider_dots">
+								<ul id="home_slider_custom_dots" class="home_slider_custom_dots">
+									<li class="home_slider_custom_dot active">01.<div></div></li>
+									<li class="home_slider_custom_dot">02.<div></div></li>
+									<li class="home_slider_custom_dot">03.<div></div></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+
+	<!-- Brand Promise -->
+
+	<div class="brand_promise">
+		<div class="container">
+			<div class="row brand_promise_row">
+				<div class="col-md-4 brand_promise_item">
+					<div class="brand_promise_label">01</div>
+					<div class="brand_promise_title">Curated Care</div>
+					<div class="brand_promise_text">Focused edits for glow, density, and polished daily rituals.</div>
+				</div>
+				<div class="col-md-4 brand_promise_item">
+					<div class="brand_promise_label">02</div>
+					<div class="brand_promise_title">Premium Feel</div>
+					<div class="brand_promise_text">Soft textures, elegant finishes, and vanity-worthy presentation.</div>
+				</div>
+				<div class="col-md-4 brand_promise_item">
+					<div class="brand_promise_label">03</div>
+					<div class="brand_promise_title">For Her Routine</div>
+					<div class="brand_promise_text">Simple products that make everyday self-care feel intentional.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Promo -->
+
+	<div class="promo">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle">curated rituals</div>
+						<div class="section_title">signature edits</div>
+					</div>
+				</div>
+			</div>
+			<div class="row promo_container">
+
+				<!-- Promo Item -->
+				<div class="col-lg-4 promo_col">
+					<div class="promo_item">
+						<div class="promo_image">
+							<img src="images/promo-1.png" alt="">
+							<div class="promo_content promo_content_1">
+								<div class="promo_title">Glow Edit</div>
+								<div class="promo_subtitle">soft skin essentials</div>
+							</div>
+						</div>
+						<div class="promo_link"><a href="#">Shop Now</a></div>
+					</div>
+				</div>
+
+				<!-- Promo Item -->
+				<div class="col-lg-4 promo_col">
+					<div class="promo_item">
+						<div class="promo_image">
+							<img src="images/promo-3.png" alt="">
+							<div class="promo_content promo_content_2">
+								<div class="promo_title">Hair Ritual</div>
+								<div class="promo_subtitle">daily density care</div>
+							</div>
+						</div>
+						<div class="promo_link"><a href="#">Shop Now</a></div>
+					</div>
+				</div>
+
+				<!-- Promo Item -->
+				<div class="col-lg-4 promo_col">
+					<div class="promo_item">
+						<div class="promo_image">
+							<img src="images/promo-2.png" alt="">
+							<div class="promo_content promo_content_3">
+								<div class="promo_title">Body Muse</div>
+								<div class="promo_subtitle">polished from first touch</div>
+							</div>
+						</div>
+						<div class="promo_link"><a href="#">Shop Now</a></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- New Arrivals -->
+
+	<div class="arrivals" id="products">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle">new to the vanity</div>
+						<div class="section_title">fresh arrivals</div>
+					</div>
+				</div>
+			</div>
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/product-1.png" alt="">
+						</div>
+						<div class="rating rating_4">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="product.html">The Tanning Cream</a></div>
+								<div class="product_note">Silky bronze finish for a soft, even glow.</div>
+								<div class="product_price">$45.00</div>
+							</div>
+							<div class="product_options">
+								<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
+								<div class="product_fav product_option">+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/product-2.png" alt="">
+						</div>
+						<div class="rating rating_4">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="product.html">Halo Hair Density</a></div>
+								<div class="product_note">Daily care for fuller-looking, polished hair.</div>
+								<div class="product_price">$35.00</div>
+							</div>
+							<div class="product_options">
+								<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
+								<div class="product_fav product_option">+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/product-3.png" alt="">
+						</div>
+						<div class="rating rating_4">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="product.html">Satin Body Polish</a></div>
+								<div class="product_note">A luminous cream ritual for touchable skin.</div>
+								<div class="product_price">$145.00</div>
+							</div>
+							<div class="product_options">
+								<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
+								<div class="product_fav product_option">+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Extra -->
+
+	<div class="extra clearfix">
+		<div class="extra_promo extra_promo_1">
+			<div class="extra_promo_image" style="background-image:url(images/extra_1.jpg)"></div>
+			<div class="extra_1_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="extra_1_price">30%<span>off</span></div>
+				<div class="extra_1_title">Weekend Glow</div>
+				<div class="extra_1_text">A refined edit for skin that looks luminous before the first step out.</div>
+				<div class="button extra_1_button"><a href="checkout.html">check out</a></div>
+			</div>
+		</div>
+		<div class="extra_promo extra_promo_2">
+			<div class="extra_promo_image" style="background-image:url(images/all-img.png)"></div>
+			<div class="extra_2_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="extra_2_title">
+					<div class="extra_2_center">&</div>
+					<div class="extra_2_top">Layer</div>
+					<div class="extra_2_bottom">Glow</div>
+				</div>
+				<div class="extra_2_text">Pair soft textures, warm notes, and care-first formulas for an effortless routine.</div>
+				<div class="button extra_2_button"><a href="checkout.html">check out</a></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Gallery -->
+
+	<div class="gallery">
+		<div class="gallery_image" style="background-image:url(images/gallery.jpg)"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="gallery_title text-center">
+						<ul>
+							<li><a href="#">#adera</a></li>
+							<li><a href="#">#aderarituals</a></li>
+							<li><a href="#">#aderawoman</a></li>
+						</ul>
+					</div>
+					<div class="gallery_text text-center">A closer look at the textures, tones, and everyday rituals behind Adera.</div>
+					<div class="button gallery_button"><a href="#">explore</a></div>
+				</div>
+			</div>
+		</div>	
+		<div class="gallery_slider_container">
+			
+			<!-- Gallery Slider -->
+			<div class="owl-carousel owl-theme gallery_slider">
+				
+				<!-- Gallery Item -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="images/gallery_1.jpg">
+						<img src="images/gallery_1.png" alt="">
+					</a>
+				</div>
+
+				<!-- Gallery Item -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="images/gallery_2.jpg">
+						<img src="images/gallery_2.png" alt="">
+					</a>
+				</div>
+
+				<!-- Gallery Item -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="images/gallery_3.jpg">
+						<img src="images/gallery_3.png" alt="">
+					</a>
+				</div>
+
+				<!-- Gallery Item -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="images/gallery_4.jpg">
+						<img src="images/gallery_1.png" alt="">
+					</a>
+				</div>
+
+				<!-- Gallery Item -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="images/gallery_5.jpg">
+						<img src="images/gallery_2.png" alt="">
+					</a>
+				</div>
+
+				<!-- Gallery Item -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="images/gallery_6.jpg">
+						<img src="images/gallery_6.jpg" alt="">
+					</a>
+				</div>
+
+			</div>
+		</div>	
+	</div>
+
+	<!-- Testimonials -->
+
+	<div class="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle">client notes</div>
+						<div class="section_title">loved by women</div>
+					</div>
+				</div>
+			</div>
+			<div class="row test_slider_container">
+				<div class="col">
+
+					<!-- Testimonials Slider -->
+					<div class="owl-carousel owl-theme test_slider text-center">
+
+						<!-- Testimonial Item -->
+						<div class="owl-item">
+							<div class="test_text">“Adera feels considered from the first touch. The textures are elegant, the scent is soft, and everything looks beautiful on my vanity.”</div>
+							<div class="test_content">
+								<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
+								<div class="test_name">Amelia Rose</div>
+								<div class="test_title">verified client</div>
+							</div>
+						</div>
+
+						<!-- Testimonial Item -->
+						<div class="owl-item">
+							<div class="test_text">“The routine is simple but it feels indulgent. My skin looks polished without feeling heavy or overdone.”</div>
+							<div class="test_content">
+								<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
+								<div class="test_name">Nora James</div>
+								<div class="test_title">verified client</div>
+							</div>
+						</div>
+
+						<!-- Testimonial Item -->
+						<div class="owl-item">
+							<div class="test_text">“I came for one product and ended up making Adera part of my weekly ritual. It feels modern, feminine, and premium.”</div>
+							<div class="test_content">
+								<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
+								<div class="test_name">Sofia Lane</div>
+								<div class="test_title">verified client</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Newsletter -->
+
+	<div class="newsletter" id="newsletter">
+		<div class="newsletter_content">
+			<div class="newsletter_image" style="background-image:url(images/newsletter.jpg)"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+							<div class="section_subtitle">private list</div>
+							<div class="section_title">receive the next edit first</div>
+						</div>
+					</div>
+				</div>
+				<div class="row newsletter_container">
+					<div class="col-lg-10 offset-lg-1">
+						<div class="newsletter_form_container">
+							<form action="#">
+								<input type="email" class="newsletter_input" required="required" placeholder="E-mail here">
+								<button type="submit" class="newsletter_button">subscribe</button>
+							</form>
+						</div>
+						<div class="newsletter_text">Join for early access to new rituals, limited edits, and refined offers from Adera for Her.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="footer_logo"><a href="/">
+						<img src="images/Logo PNG.svg" alt="">
+					</a></div>
+					<nav class="footer_nav">
+						<ul>
+							<li><a href="index.html">home</a></li>
+							<!-- <li><a href="categories.html">clothes</a></li>
+							<li><a href="categories.html">accessories</a></li>
+							<li><a href="categories.html">lingerie</a></li>
+							<li><a href="contact.html">contact</a></li> -->
+							<li><a href="#products">Products</a></li>
+							<li><a href="#newsletter">contact</a></li>
+						</ul>
+					</nav>
+					<div class="footer_social">
+						<ul>
+							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<!-- <li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li> -->
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

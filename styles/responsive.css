@@ -578,11 +578,11 @@ Client Presentation Responsive Polish
 
 @media only screen and (max-width: 575px)
 {
-	/* .home
+	.home
 	{
-		height: 720px;
-		min-height: 720px;
-	} */
+		height: auto;
+		min-height: auto;
+	}
 	.home_slider_content
 	{
 		left: 15px;

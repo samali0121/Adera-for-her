@@ -548,8 +548,8 @@ Client Presentation Responsive Polish
 	}
 	.home
 	{
-		height: 700px;
-		min-height: 700px;
+		height: auto;
+		min-height: auto;
 	}
 	.home_slider_content
 	{
